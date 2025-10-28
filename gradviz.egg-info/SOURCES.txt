@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+gradviz/__init__.py
+gradviz/__main__.py
+gradviz/core.py
+gradviz/hooks.py
+gradviz/plotting.py
+gradviz/utils.py
+gradviz.egg-info/PKG-INFO
+gradviz.egg-info/SOURCES.txt
+gradviz.egg-info/dependency_links.txt
+gradviz.egg-info/entry_points.txt
+gradviz.egg-info/requires.txt
+gradviz.egg-info/top_level.txt
+tests/tests_smoke.py

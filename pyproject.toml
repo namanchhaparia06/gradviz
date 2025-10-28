@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gradviz"
+version = "0.1.1"
+description = "Lightweight gradient visualizer for PyTorch: record gradient norms and plot flows by layer/param."
+readme = "README.md"
+authors = [{ name = "Naman Chhaparia", email = "chhaparianaman@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+  "torch>=1.10",
+  "numpy>=1.21",
+  "pandas>=1.3",
+  "matplotlib>=3.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/gradviz"
+Issues = "https://github.com/yourname/gradviz/issues"
+
+[project.scripts]
+gradviz = "gradviz.__main__:main"
+
+[tool.setuptools]
+packages = ["gradviz"]
+include-package-data = true
