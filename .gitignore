@@ -3,3 +3,9 @@
 x.py
 TestPyPI-Recovery-Codes-namanchhaparia-2025-10-27T18_39_41.011767.txt
 PyPI-Recovery-Codes-namanchhaparia-2025-10-27T19_05_18.191598.txt
+.gitignore
+dist/
+*.egg-info/
+gradviz_logs/
+data/
+*.log
