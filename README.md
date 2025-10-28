@@ -53,10 +53,10 @@ gv.heatmap(by="layer", at_step=1000)
 ## 🖼️ Example Plots
 
 Line plot of gradient norms over steps
-![Alt text](heatmap.png)
+![Line plot](https://raw.githubusercontent.com/namanchhaparia06/gradviz/main/gradviz_logs/lines.png)
 
 Heatmap of gradient norms by layer
-![Alt text](lines.png)
+![Heatmap](https://raw.githubusercontent.com/namanchhaparia06/gradviz/main/gradviz_logs/heatmap.png)
 
 ## 🔧 Features
 
@@ -94,3 +94,7 @@ from gradviz import GradViz, GradVizConfig
 ## 📂 Examples
 
 See examples/demo_mnist.py for a full MNIST training demo.
+
+[![PyPI version](https://img.shields.io/pypi/v/gradviz.svg)](https://pypi.org/project/gradviz/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Release](https://img.shields.io/github/v/release/namanchhaparia06/gradviz)](https://github.com/namanchhaparia06/gradviz/releases)

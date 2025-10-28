@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gradviz"
-version = "0.1.1"
+version = "0.1.2"
 description = "Lightweight gradient visualizer for PyTorch: record gradient norms and plot flows by layer/param."
 readme = "README.md"
 authors = [{ name = "Naman Chhaparia", email = "chhaparianaman@gmail.com" }]
@@ -18,8 +18,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourname/gradviz"
-Issues = "https://github.com/yourname/gradviz/issues"
+Homepage = "https://github.com/namanchhaparia06/gradviz"
+Repository = "https://github.com/namanchhaparia06/gradviz"
+Issues = "https://github.com/namanchhaparia06/gradviz/issues"
+Documentation = "https://github.com/namanchhaparia06/gradviz#readme"
+
 
 [project.scripts]
 gradviz = "gradviz.__main__:main"
